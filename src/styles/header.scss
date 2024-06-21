@@ -1,0 +1,42 @@
+$primary-color: #213f7d;
+$secondary-color: #545f7d;
+$text-color: #39cdcc;
+$font-family: "Poppins", sans-serif;
+$error-color: crimson;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding-inline: 40px;
+
+  .logo {
+    width: 100px;
+  }
+
+  .search {
+    display: flex;
+    height: 37px;
+    max-width: 400px;
+    width: 300px;
+    min-width: 200px;
+
+    button {
+      background-color: $text-color;
+      color: #fff;
+      border: none;
+      width: 70px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0 5px 5px 0;
+      margin-left: -2px;
+    }
+  }
+
+  input {
+    margin-bottom: 0;
+  }
+}
