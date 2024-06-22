@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-color: #213f7d;
+$secondary-color: #545f7d;
+$text-color: #39cdcc;
+$font-family: "Poppins", sans-serif;
+$error-color: crimson;
+
+* {
+  font-family: $font-family;
+}
+
+aside {
+  width: 225px;
+  //   border: 2px solid $primary-color;
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px;
+
+  .brief {
+    margin-bottom: 20px;
+  }
+
+  .dashboard {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .costumer,
+  .businesses {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  span {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.887rem;
+
+    img {
+      width: 0.9rem;
+    }
+  }
+}
