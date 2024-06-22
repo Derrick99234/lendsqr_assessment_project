@@ -7,11 +7,16 @@ $error-color: crimson;
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  grid-column: 2;
   align-items: center;
   height: 70px;
   padding-inline: 40px;
-
+  width: 100%;
+  margin-left: -2px;
+  z-index: 100;
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.054);
+  // margin-left: auto;
   .logo {
     width: 100px;
   }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/Group.svg";
+
 import search from "../assets/search-icon.svg";
 import profile from "../assets/image 4.png";
 import profile_dropdown from "../assets/profile_dropdown.svg";
@@ -10,7 +10,6 @@ function Header() {
   const [searchQuery, setSearchQuery] = useState("");
   return (
     <header>
-      <img src={logo} alt="" className="logo" />
       <div className="search">
         <Input
           placeholder="Search for anything"

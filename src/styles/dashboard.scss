@@ -6,13 +6,14 @@ $font-family: "Poppins", sans-serif;
 $error-color: crimson;
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto 1fr;
 }
 
 main {
-  //   background-color: $primary-color;
-  flex-grow: 1;
   padding: 30px;
+  grid-column: 2;
 
   h2 {
     margin-bottom: 30px;
@@ -31,7 +32,7 @@ main {
       border: 1px solid rgba(33, 63, 125, 0.06);
       padding: 20px;
       background: #fff;
-      box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+      box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.054);
       display: flex;
       flex-direction: column;
       gap: 0.5rem;

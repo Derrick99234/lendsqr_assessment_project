@@ -9,9 +9,9 @@ import saving from "../assets/iconsavings.png";
 function Dashboard() {
   return (
     <>
-      <Header />
       <div className="container">
         <Sidebar />
+        <Header />
         <main>
           <h2>Users</h2>
           <div className="users">
